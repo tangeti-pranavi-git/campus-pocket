@@ -1,0 +1,35 @@
+name: campus_pocket
+publish_to: "none"
+version: 1.0.0+1
+
+environment:
+  sdk: ">=3.4.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  cupertino_icons: ^1.0.8
+  supabase_flutter: ^2.8.2
+  flutter_dotenv: ^5.2.1
+  go_router: ^14.8.1
+  provider: ^6.1.2
+  shared_preferences: ^2.5.3
+  http: ^1.2.2
+  fl_chart: ^1.2.0
+  intl: ^0.19.0
+  flutter_markdown: ^0.7.2
+  speech_to_text: ^6.6.1
+  flutter_tts: ^4.0.2
+  permission_handler: ^11.3.1
+  local_auth: ^3.0.1
+  flutter_secure_storage: ^10.0.0
+  flutter_local_notifications: ^21.0.0
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+  flutter_lints: ^5.0.0
+
+flutter:
+  uses-material-design: true
+  assets:
+    - .env
